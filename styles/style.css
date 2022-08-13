@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+body {
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225deg, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.main {
+  margin: auto;
+  width: 390px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.main img {
+  width: 100%;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.main .content {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.main h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  padding: 20px;
+  padding-bottom: 0;
+  padding-top: 10px;
+}
+.main .content p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 29px;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+  font-family: red Hat Display, sans-serif;
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: hsl(225deg, 100%, 98%);
+  margin: auto;
+  margin-top: 0;
+  border-radius: 10px;
+  margin-bottom: 0;
+  width: 85%;
+}
+.price .image {
+  width: 50px;
+}
+.price .name {
+  margin: auto;
+  margin-left: 0;
+}
+.price .name h2, .price p {
+  margin-left: 0;
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: center;
+}
+.price .name p {
+  line-height: 0;
+  font-size: 18.5px;
+  margin-left: 0;
+}
+.price h3 {
+  padding-right: 0;
+  color: hsl(245deg, 75%, 52%);
+  text-decoration: underline;
+  font-weight: 700;
+  cursor: pointer;
+}
+.price h3:hover {
+  text-decoration: none;
+  color: hsla(245deg, 75%, 52%, 0.7);
+  transition: 0.5s;
+}
+
+.payment {
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;
+  background-color: hsl(245deg, 75%, 52%);
+  color: white;
+  border: 1px solid;
+  font-weight: 700;
+  box-shadow: 0px 20px 10px hsla(225deg, 100%, 94%, 0.9);
+  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+h4 {
+  text-align: center;
+  padding: 60px;
+  padding-top: 0;
+  font-size: 13px;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 700;
+  padding-bottom: 40px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsla(245deg, 75%, 52%, 0.7);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+h4:hover {
+  color: hsl(223deg, 47%, 23%);
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+@media (max-width: 700px) {
+  .main {
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 380px;
+  }
+  h3:hover {
+    text-decoration: none;
+    color: hsla(245deg, 75%, 52%, 0.7);
+    transition: 0.5s;
+  }
+  .btn:hover {
+    background-color: hsla(245deg, 75%, 52%, 0.7);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  h4:hover {
+    color: hsl(223deg, 47%, 23%);
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  body {
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225deg, 100%, 94%);
+  }
+}/*# sourceMappingURL=style.css.map */
